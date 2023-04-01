@@ -9,6 +9,6 @@
     <%= post.body %>
   </p>
 
-  <%=link_to favourite_text,favourites_update_path(post:@post),id:'favourite_link' %>
+  <%=link_to favourite_text,favourites_update_path(post:@post),id:'favourite_link' ,remote: true%>
 
 </div>
